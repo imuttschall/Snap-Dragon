@@ -1,0 +1,171 @@
+0.1.3
+    Add buttons for cycling through pictures                            FINISHED
+    Add buttons for rotating pictures                                   FINISHED                                           
+    Address speed issues                                                FINISHED
+    Comment/Document                                                    FINISHED
+    Fix debugging system                                                FINISHED
+    Add timing system to debugger                                       FINISHED
+    Add error reporting                                                 FINISHED
+    Change to class base program                                        FINISHED
+    Add option for wraparound list or not                               FINISHED
+    Change way of compiling list of pictures                            FINISHED
+    Fix cancel button in options window                                 FINISHED
+
+    0.1.4
+    Add New ( Since Removed )                                           FINISHED
+    Add color changing capabilities                                     FINISHED
+    Clean up imports                                                    FINISHED
+    Add reporting for pictures that are saved in multiple folders       FINISHED
+    Changed rotating system to only use positive numbers                FINISHED 
+    Add Ability to remember picture status from previous sessions...    FINISHED
+    
+    0.1.5
+    Add keyboard short cuts for image ops, rem/forget settings          FINISHED
+    Fix error report on X close                                         FINISHED
+    Add name for new projects ( Fututre expansion )                     FINISHED
+    Add Help Features                                                   FINISHED
+    fix main window Starting Title                                      FINISHED
+    Fix options window title                                            FINISHED
+    Organize program functions                                          FINISHED
+    
+    0.1.6
+    Change Tkinter Icons on windows                                     FINISHED
+    Move previous Revision Changes into a release text file             FINISHED
+	Fix Rotating cut off												FINISHED
+        Created more timing delay...
+    Add Right click menu for picture operations                         FINISHED
+    Add Installer                                                       FINISHED
+    Fix error when entering findpics multiple times during program run  FINISHED
+        This was caused by not resetting the im_id index to 0 when
+        reforming the list. It would occur in situations where you find
+        pics then go through the list, then find pics again and the 
+        new list of pics isn't as long as the old list, so the im_id
+        is set to an index that doesn't exist. Fixed by setting im_id 
+        to 0 upon creation of a new list.
+
+    0.1.7
+    Add Uninstaller                                                     FINISHED
+    Fix USB installer                                                   FINISHED
+    Comment USB installer                                               FINISHED
+    Make icon for USB installer                                         FINISHED
+    Fix installer                                                       FINISHED
+    Comment Installer                                                   FINISHED
+    Add header and version to installer                                 FINISHED
+    Change build name to just Snap Dragon ( excluding the version )     FINISHED
+    Add info file for installation purposes                             FINISHED
+    Make icon for installer                                             FINISHED
+    Add news feature to tell about new features                         FINISHED
+    Add Speed test for debugging speed problems on different PCs        FINISHED
+    Make Debug output mpre clear/robust                                 FINISHED
+    Fixed bug with dependancy on snapdragon.ico                         FINISHED
+    Make an automatic build script to save time :(                      FINISHED
+    Move Documents and icons into a storage folder                      FINISHED
+        There were some problems getting the exe to work when the icons 
+        were in a different folder. This was resolved in a previous bug 
+    Clean up newly added code and document                              FINISHED
+    Remove unused variables/code                                        FINISHED
+    Add feature to remove pics from a folder                            FINISHED
+    Change news window to be like the traceback window                  FINISHED
+    Change all window variable names to use unique root names           FINISHED
+    Change Toss feature to a function                                   FINISHED
+    Fix Right click to appear at corner                                 FINISHED
+    Add a count of how many pictures there are in the Title             FINISHED
+    
+    1.1.8
+    Add a status window when searching pics telling the count           FINISHED
+    Clean up look of options window                                     FINISHED
+    Add Check box to news feature about displaying on startup           FINISHED
+    Clean up news feature's appearnce                                   FINISHED
+    Split into multiple files for modularability                        POSTPONED
+    Add save/toss/forget/remember/remove to right click and edit menu   FINISHED
+        I revamped the look of the edit/popup menu. It's now easier to
+        add menus including cascading menus                             
+    Fix broken all types checkbox from removing cb8 ( raw )             FINISHED
+    Add GNU public license information to this and all source files     FINISHED
+    Fix bug found from clicking cancel in find pics dialog              FINISHED
+    Add a count of pictures in the title xxx/xxx                        FINISHED
+    Add License information to the Actual program                       FINISHED
+    
+    1.1.9
+    Add a tutorial for basic operation                                  FINISHED
+    Add more picture operations/effects                                 FINISHED
+    Implement Change Saved Feature                                      FINISHED
+    Fix bug found in search all sub directories                         FINISHED
+    Remove search sub-directories checkbox and always search sub dirs   FINISHED
+    Make GUI Installer                                                  FINISHED
+    Post download to sourceforge                                        FINISHED
+    Make cross platform with mac and maybe linux ( NEEDS TESTING  )     FINISHED 
+    Update News                                                         FINISHED
+    Remove Wrap-Around Flag and replace with a yes/no box everytime     FINISHED
+    Make options row/column configureation more dynamic by using vars   FINISHED
+    Fix bug in news startup checkbox                                    FINISHED
+    change remember settings to always remember                         FINISHED
+    Remove buttons on front interface                                   FINISHED
+    Fix icons on all windows                                            FINISHED
+    Add clear all effects option                                        FINISHED
+    Fix bug on fails without an extension                               FINISHED
+        couldn't replicate
+    Fix chortcuts window Ok button                                      FINISHED
+    Make all windows top left corn appear at 200, 200 initially         FINISHED
+
+    1.2.0
+    Allow saving of pictures with effects                               FINISHED
+    Fix Changed Saved Buggyness                                         FINISHED
+
+    1.2.1
+    Make help into a PDF/tiff file that opens from the program          FINISHED
+    update help tutorial to look cleaner                                FINISHED
+    Update all windows to use Toplevel                                  FINISHED
+    Remove Need for Help_Tags.py                                        FINISHED
+    Add more operations to the edit menu                                FINISHED
+    
+    1.2.2
+    Add shortcut for opening save folders                               FINISHED
+    Overhaul debug system for better remote debugging                   FINISHED
+    Address search premission failures                                  FINISHED
+         not sure what exactly is going on here. Perhaps revamping the 
+         debug system will give more of a clue. I envision a seperate 
+         file that will put a debug statement at every line and write 
+         to global file
+         For Now I'm adding os.access to check for access before using
+         
+    Make a base window class to reduce code reuse                       FINISHED
+    Compress imports                                                    FINISHED
+    Remove old debug code for cleaner look                              FINISHED
+        Leave in the ability to time different parts for future use
+    Fix error in pictures with errors resizing                          FINISHED
+
+    1.2.3
+    Update News                                                         FINISHED
+    Comment/Clean Code                                                  FINISHED
+    Animate picture change                                              FINISHED
+    Change Picture to use Canvas instead of label                       FINISHED
+    click and drag to cycle through pictures                            FINISHED
+    Add ability to turn off animations for slower computers             FINISHED
+    
+    1.3.0
+    Add ability to view pictures in different sorting methods           FINISHED
+    Add a window to select the sorting method                           FINISHED
+    Add make a folder option to changed saved and findpics              FINISHED
+        Made for changed saved only
+    Remove option for tif files. They don't work with pyinstaller       FINISHED
+        Change help files to .png files
+    Add Ability to compare 2 or more pictures side by side              FINISHED
+        im.transform with PERSPECTIVE
+    
+    1.3.1
+    Add a startup screen. Incorporate news into it                      FINISHED
+    Add Tags for sorting pictures                                       FINISHED
+    split into multiple files for neater code                           FINISHED
+    Fix Error when clicking main window before pic is there             FINISHED
+    
+    FindPicsWindow                                                      
+        Fix issue with loading < 10 pics                                FINISHED
+        Fix dir scanning in find pics to not scan my docs               FINISHED
+        Convert findpics to a toplevel and make it its own file         FINISHED
+        Fix comparing pictures in find pics                             FINISHED
+    
+    
+    
+    
+    
